@@ -1,0 +1,34 @@
+{
+  "name": "method-throttle",
+  "version": "1.0.0",
+  "description": "throttles a method for a specific time",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/jshint/bin/jshint . && node_modules/mocha/bin/mocha --globals setImmediate,clearImmediate --check-leaks --colors -t 10000 --reporter spec $(find test/* -name '*.test.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/findhit/method-throttle"
+  },
+  "keywords": [
+    "method",
+    "throttle",
+    "throttler",
+    "waiter",
+    "ignore",
+    "findhit"
+  ],
+  "author": "José Moreira <jose.moreira@findhit.com>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/findhit/method-throttle/issues"
+  },
+  "homepage": "https://github.com/findhit/method-throttle",
+  "devDependencies": {
+    "bluebird": "^2.9.25",
+    "chai": "^2.3.0",
+    "jshint": "^2.7.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1"
+  }
+}
