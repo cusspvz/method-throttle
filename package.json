@@ -2,9 +2,9 @@
   "name": "method-throttle",
   "version": "1.0.0",
   "description": "throttles a method for a specific time",
-  "main": "index.js",
+  "main": "src/method-throttle.js",
   "scripts": {
-    "test": "node_modules/jshint/bin/jshint . && node_modules/mocha/bin/mocha --globals setImmediate,clearImmediate --check-leaks --colors -t 10000 --reporter spec $(find test/* -name '*.test.js')"
+    "test": "jshint . && mocha --globals setImmediate,clearImmediate --check-leaks --colors -t 10000 --reporter spec $(find test/* -name '*.test.js')"
   },
   "repository": {
     "type": "git",
