@@ -1,6 +1,6 @@
 {
   "name": "method-throttle",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "throttles a method for a specific time",
   "main": "src/method-throttle.js",
   "scripts": {
